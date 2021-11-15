@@ -1,32 +1,29 @@
-﻿<Properties StartupConfiguration="{A6801D9F-2593-4EF3-AE8F-700214AD33C4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="APIexemple/Controllers/UtilisateurController.cs">
+﻿<Properties StartupConfiguration="{216A4F94-4094-4CBD-8643-15D42EA152E7}|SecondTry">
+  <MonoDevelop.Ide.Workbench ActiveDocument="secondTry/Controllers/UtilisateurController.cs">
     <Files>
-      <File FileName="APIexemple/Controllers/UtilisateurController.cs" Line="13" Column="28" />
-      <File FileName="APIexemple/Models/Utilisateur.cs" />
-      <File FileName="APIexemple/Models/Adress.cs" />
-      <File FileName="APIexemple/Controllers/HomeController.cs" />
+      <File FileName="SecondTry/Models/Adress.cs" Line="16" Column="1" />
+      <File FileName="SecondTry/Models/Utilisateur.cs" Line="10" Column="23" />
+      <File FileName="SecondTry/Controllers/UtilisateurController.cs" Line="30" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="exoAPI" expanded="True">
-            <Node name="APIexemple" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="UtilisateurController.cs" selected="True" />
-              </Node>
+          <Node name="exoAPI" expanded="True" selected="True">
+            <Node name="API" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.APIexemple PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
