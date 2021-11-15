@@ -5,7 +5,6 @@
 /Users/peah/Desktop/Algo/exoAPI/exoAPI/SecondTry/bin/Debug/netcoreapp3.1/API.runtimeconfig.dev.json
 /Users/peah/Desktop/Algo/exoAPI/exoAPI/secondTry/bin/Debug/netcoreapp3.1/API.dll
 /Users/peah/Desktop/Algo/exoAPI/exoAPI/secondTry/bin/Debug/netcoreapp3.1/API.pdb
-/Users/peah/Desktop/Algo/exoAPI/exoAPI/secondTry/obj/Debug/netcoreapp3.1/API.csproj.AssemblyReference.cache
 /Users/peah/Desktop/Algo/exoAPI/exoAPI/secondTry/obj/Debug/netcoreapp3.1/API.GeneratedMSBuildEditorConfig.editorconfig
 /Users/peah/Desktop/Algo/exoAPI/exoAPI/secondTry/obj/Debug/netcoreapp3.1/API.AssemblyInfoInputs.cache
 /Users/peah/Desktop/Algo/exoAPI/exoAPI/secondTry/obj/Debug/netcoreapp3.1/API.AssemblyInfo.cs
@@ -18,3 +17,4 @@
 /Users/peah/Desktop/Algo/exoAPI/exoAPI/secondTry/obj/Debug/netcoreapp3.1/API.dll
 /Users/peah/Desktop/Algo/exoAPI/exoAPI/secondTry/obj/Debug/netcoreapp3.1/API.pdb
 /Users/peah/Desktop/Algo/exoAPI/exoAPI/SecondTry/obj/Debug/netcoreapp3.1/API.genruntimeconfig.cache
+/Users/peah/Desktop/Algo/exoAPI/exoAPI/secondTry/obj/Debug/netcoreapp3.1/API.csproj.AssemblyReference.cache

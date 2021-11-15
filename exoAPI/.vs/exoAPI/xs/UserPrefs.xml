@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{216A4F94-4094-4CBD-8643-15D42EA152E7}|SecondTry">
-  <MonoDevelop.Ide.Workbench ActiveDocument="secondTry/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="secondTry/Models/Utilisateur.cs">
     <Files>
-      <File FileName="SecondTry/Models/Adress.cs" Line="30" Column="1" />
-      <File FileName="SecondTry/Models/Utilisateur.cs" Line="42" Column="15" />
-      <File FileName="SecondTry/Controllers/UtilisateurController.cs" Line="28" Column="33" />
-      <File FileName="secondTry/Program.cs" Line="16" Column="1" />
+      <File FileName="SecondTry/Controllers/UtilisateurController.cs" Line="51" Column="67" />
+      <File FileName="SecondTry/Models/Utilisateur.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,9 +10,9 @@
           <Node name="exoAPI" expanded="True">
             <Node name="API" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Utilisateur.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
