@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using API.Models;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -9,20 +10,30 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.Controllers
 {
     [Route("api/[controller]")]
-    public class UtilisateurController : Controller
+    [ApiController]
+    public class UtilisateurController : ControllerBase
     {
+        List<Utilisateur> utilisateurs = new List<Utilisateur>
+            {
+                new Utilisateur( 0 , 'H', "Anderson", "Paul" , "178116235501717", new Adress ("241", "Rue jules verne", "Lille", "59000" )),
+                new Utilisateur( 1 , 'F', "Anderson", "Pamela" , "278116335501713", new Adress ("241", "Rue jules verne", "Lille", "59000" )),
+                new Utilisateur( 2 , 'H', "Dupont", "Joey" , "168096335501705", new Adress ("87", "Rue de mons", "Tourcoing", "59200" )),
+                new Utilisateur( 3 , 'H', "Bachir", "Richard" , "19805642501715", new Adress ("532", "Rue de gand", "Tourcoing", "59200" )),
+            };
+
         // GET: api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public List<Utilisateur> Get()
         {
-            return new string[] { "value1", "value2" };
+            return utilisateurs;
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Utilisateur Get(int id)
         {
-            return "value";
+            Utilisateur utilisateur = utilisateurs.Find(f => f.Id == id);
+            return utilisateur;
         }
 
         // POST api/values

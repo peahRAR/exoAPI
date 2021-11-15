@@ -9,37 +9,37 @@ namespace API.Models
         /// Un Id pour chaque Utilisateur
         /// </summary>
 
-        private int Id { get; set; }
+        public int Id { get; set; }
 
         /// <summary>
         /// Un Etat Civile pour chaque Utilisateur (M = Monsieur / F = Madame)
         /// </summary>
 
-        private char Civilitie { get; set; }
+        public char Civilitie { get; set; }
 
         /// <summary>
         /// Un Name pour chaque Utilisateur
         /// </summary>
 
-        private string Name { get; set; }
+        public string Name { get; set; }
 
         /// <summary>
         /// Un Firstame pour chaque Utilisateur
         /// </summary>
 
-        private string Firstame { get; set; }
+        public string Firstame { get; set; }
 
         /// <summary>
         /// Un Numero de Sécu pour chaque Utilisateur
         /// </summary>
 
-        private string SecuNb { get; set; }
+        public string SecuNb { get; set; }
 
         /// <summary>
         /// Une Adresse pour chaque Utilisateur
         /// </summary>
 
-        private Adress Adress { get; set; }
+        public Adress Adress { get; set; }
 
         #endregion
 
