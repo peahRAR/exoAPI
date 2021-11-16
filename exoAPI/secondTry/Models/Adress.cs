@@ -5,6 +5,13 @@ namespace API.Models
     {
         #region Propriètés
         /// <summary>
+        /// Un id pour chaque adress
+        /// </summary>
+
+        public int Id { get; set; }
+
+
+        /// <summary>
         /// Un Numéro de rue pour chaque adress
         /// </summary>
 

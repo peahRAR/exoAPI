@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/peah/.dotnet/store/|arch|/|tfm|",
-      "/Users/peah/.nuget/packages"
+      "C:\\Users\\PierreAlexisDECALLON\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\PierreAlexisDECALLON\\.nuget\\packages"
     ]
   }
 }
