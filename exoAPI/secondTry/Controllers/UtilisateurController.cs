@@ -60,8 +60,7 @@ namespace API.Controllers
             utilisateurs[index].Adress.CityName = utilisateur.Adress.CityName;
             utilisateurs[index].Adress.CP = utilisateur.Adress.CP;
 
-            return utilisateurs;
-            
+            return utilisateurs; 
         }
 
         // DELETE api/values/5
