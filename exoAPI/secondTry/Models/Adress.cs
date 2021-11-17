@@ -10,7 +10,6 @@ namespace API.Models
 
         public int Id { get; set; }
 
-
         /// <summary>
         /// Un Numéro de rue pour chaque adress
         /// </summary>
@@ -48,7 +47,6 @@ namespace API.Models
         }
 
         #endregion
-
 
     }
 }
