@@ -15,9 +15,9 @@ namespace Consume_WEB_API.Controllers
         {
             IEnumerable<Utilisateur> ec = null;
             HttpClient hc = new HttpClient();
-            hc.BaseAddress = new Uri("http://https://localhost:44343/api/");
+            hc.BaseAddress = new Uri("https://localhost:44343/api/");
 
-            var consumedata = hc.GetAsync("utilisateur");
+            var consumedata = hc.GetAsync("Utilisateur");
             consumedata.Wait();
 
             var dataread = consumedata.Result;

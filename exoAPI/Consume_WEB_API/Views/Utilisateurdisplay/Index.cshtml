@@ -5,47 +5,73 @@
 }
 
 <center>
-    <h2>Liste d'utilisateur'</h2>
+    <h2>Liste d'utilisateurs</h2>
 
 
     <table class="table">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Civilitie)
+                <center>
+                    @Html.DisplayNameFor(model => model.Civilitie)
+                </center>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                <center>
+                    @Html.DisplayNameFor(model => model.Name)
+                </center>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Firstame)
+                <center>
+                    @Html.DisplayNameFor(model => model.Firstame)
+                </center>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SecuNb)
+                <center>
+                    @Html.DisplayNameFor(model => model.SecuNb)
+                </center>
+            </th>
+            <th>
+                <center>
+                    @Html.DisplayNameFor(model => model.Adress.CityName)
+                </center>
             </th>
             <th></th>
         </tr>
 
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Civilitie)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Firstame)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.SecuNb)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-                </td>
-            </tr>
+    <tr>
+        <td>
+            <center>
+                @Html.DisplayFor(modelItem => item.Civilitie)
+            </center>
+        </td>
+        <td>
+            <center>
+                @Html.DisplayFor(modelItem => item.Name)
+            </center>
+        </td>
+        <td>
+            <center>
+            @Html.DisplayFor(modelItem => item.Firstame)
+            </center>
+        </td>
+        <td>
+            <center>
+            @Html.DisplayFor(modelItem => item.SecuNb)
+            </center>
+        </td>
+        <td>
+            <center>
+                @Html.DisplayFor(modelItem => item.Adress.CityName)
+            </center>
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+        </td>
+    </tr>
         }
 
     </table>
