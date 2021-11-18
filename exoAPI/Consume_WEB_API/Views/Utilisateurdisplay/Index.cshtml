@@ -35,6 +35,11 @@
                     @Html.DisplayNameFor(model => model.Adress.CityName)
                 </center>
             </th>
+            <th>
+                <center>
+                    <p>Fonctions</p>
+                </center>
+            </th>
             <th></th>
         </tr>
 
@@ -67,9 +72,11 @@
             </center>
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            <center>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </center>
         </td>
     </tr>
         }
