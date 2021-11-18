@@ -19,7 +19,7 @@ namespace Consume_WEB_API.Models
         /// Un Etat Civile pour chaque Utilisateur (M = Monsieur / F = Madame)
         /// </summary>
 
-        public char Civilitie { get; set; }
+        public string Civilitie { get; set; }
 
         /// <summary>
         /// Un Name pour chaque Utilisateur

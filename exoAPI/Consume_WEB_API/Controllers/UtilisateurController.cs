@@ -26,12 +26,19 @@ namespace Consume_WEB_API.Controllers
             {
                 user.Add(new Utilisateur()
                 {
-                    Id = Convert.ToInt32(sdr.GetValue(0)),
-                    Civilitie = (char)sdr.GetValue(1),
-                    Name = sdr.GetValue(2).ToString(),
-                    Firstame = sdr.GetValue(3).ToString(),
-                    SecuNb = sdr.GetValue(4).ToString(),
-                    Adress = { Id = Convert.ToInt32(sdr.GetValue(5)), StreetNb = sdr.GetValue(6).ToString(), StreetName = sdr.GetValue(7).ToString(), CityName = sdr.GetValue(8).ToString(), CP = sdr.GetValue(9).ToString() }
+                    Id = sdr.GetInt32(0),
+                    Civilitie = sdr.GetString(1),
+                    Name = sdr.GetString(2),
+                    Firstame = sdr.GetString(3),
+                    SecuNb = sdr.GetString(4),
+                    // Adress
+                    Adress = new Adress {
+                        StreetNb = sdr.GetString(7),
+                        StreetName = sdr.GetString(8),
+                        CityName = sdr.GetString(9),
+                        CP = sdr.GetString(10)
+                    }
+                    
                 });
             }
             return Ok(user);
