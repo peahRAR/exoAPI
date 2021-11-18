@@ -21,11 +21,6 @@ namespace API.Controllers
                 new Utilisateur( 3 , 'H', "Bachir", "Richard" , "19805642501715", new Adress ("532", "Rue de gand", "Tourcoing", "59200" )),
             };
 
-        /// <summary>
-        /// Remplir la BDD
-        /// </summary>
-
-
 
         // GET: api/values
         [HttpGet]
