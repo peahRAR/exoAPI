@@ -30,5 +30,7 @@ namespace Consume_WEB_API.Controllers
 
             return View(ec);
         }
+
+        
     }
 }
